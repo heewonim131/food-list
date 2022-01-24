@@ -2,11 +2,13 @@
 네이버 지역검색 API를 활용하여 맛집 리스트를 검색하고, 위시 리스트에 추가하는 나만의 맛집 리스트 사이트
 
 ## 개발환경
-- Memory DB 구현
-- Spring Boot Framework
-- Lombok
-- Thymeleaf
-- [네이버 지역검색 API](https://developers.naver.com/products/service-api/search/search.md#%EA%B2%80%EC%83%89)
+- Language : Java 11
+- IDE : IntelliJ IDEA Community
+- Framework : Spring Boot 2.6.3
+- Build Tool : Gradle
+- Database : Memory DB 구현
+- Libraries : Lombok, Thymeleaf
+- Open API : [네이버 지역검색 API](https://developers.naver.com/products/service-api/search/search.md#%EA%B2%80%EC%83%89)
 
 ## 구현한 기능
 - 검색어를 입력하면 해당 단어가 포함된 맛집 리스트가 출력된다.
